@@ -30,6 +30,6 @@ public class Casa extends Imovel {
 
     @Override
     public String toString() {
-        return super.toString() + "\nSobrado: " + sobrado + "\nQuintal: " + quintal;
+        return "\nCASA\n" + super.toString() + "\nSobrado: " + sobrado + "\nQuintal: " + quintal;
     }
 }

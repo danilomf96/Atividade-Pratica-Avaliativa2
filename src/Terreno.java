@@ -20,6 +20,6 @@ public class Terreno extends Imovel {
 
     @Override
     public String toString() {
-        return super.toString() + "\nMetros quadrados : " + m2;
+        return "\nTERRENO\n" + super.toString() + "\nMetros quadrados : " + m2;
     }
 }
